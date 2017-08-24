@@ -1,9 +1,24 @@
+<!DOCTYPE html>
 <html>
+
 <head>
+  <link rel="stylesheet" type="text/css" href="stylesheetforhtml2.css">
+  <!--<style>
+
+  </style>-->
+
 </head>
+
 <body>
-    <h1> This is heading 1</h1>
-    <p> This is a paragraph</p>
-    <a href="https://www.google.com" onclick="highlight">Google</a>
+  <h1 id="heading-one"> This is heading 1</h1>
+  <p class="green-text"> This is a paragraph</p>
+  <a href=# onclick="function1()">Google</a>
+
+  <script>
+    function function1() {
+      document.getElementsById("heading-one").innerHTML = "GOOGLE!";
+    }
+  </script>
 </body>
+
 </html>
